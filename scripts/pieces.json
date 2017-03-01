@@ -1,0 +1,55 @@
+module.exports = {
+  "pieces": [
+    {
+      "title": "Scrolls of a New Day",
+      "medium": "Ink &amp; Oil Pastel on Hand-woven Papyrus",
+      "original": false,
+      "prints_in_stock": true,
+      "original_price": "$17,500",
+      "print_price": "$630",
+      "quote_inspire": "And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.",
+      "quote_src": "Anais Nin",
+      "img_src": "./assets/original/scrolls_new_day.png"
+    }, {
+      "title": "Third Home of My Father",
+      "medium": "Ink &amp; Oil Pastel on Hand-woven Papyrus",
+      "original": false,
+      "prints_in_stock": true,
+      "original_price": "$15,000",
+      "print_price": "$540",
+      "quote_inspire": "When the daylight exhausts you, when you hope a final night will cover the world, think about the awakening of a young child.",
+      "quote_src": "Omar Khayyám",
+      "img_src": "./assets/original/fathers_home.png"
+    }, {
+      "title": "An Encampment of Spirits",
+      "medium": "Ink &amp; Oil Pastel on Hand-woven Papyrus",
+      "original": false,
+      "prints_in_stock": true,
+      "original_price": "$18,000",
+      "print_price": "$648",
+      "quote_inspire": "From the moment I met you, your personality had the most extraordinary influence over me. I was dominated, soul brain and power.",
+      "quote_src": "Oscar Wilde",
+      "img_src": "./assets/original/encampment.png"
+    }, {
+      "title": "The Undersea Mother of Unicorns",
+      "medium": "Ink &amp; Oil Pastel on Hand-woven Papyrus",
+      "original": false,
+      "prints_in_stock": true,
+      "original_price": "$12,000",
+      "print_price": "$432",
+      "quote_inspire": "Ever has it been that love knows not its own depth until the hour of separation.",
+      "quote_src": "Kahlil Gibran",
+      "img_src": "./assets/original/unicorn_mother.png"
+    }, {
+      "title": "A Theory of Rushes By a Lake",
+      "medium": "Ink &amp; Oil Pastel on Hand-woven Papyrus",
+      "original": false,
+      "prints_in_stock": true,
+      "original_price": "$22,000",
+      "print_price": "$792",
+      "quote_inspire": "Man is a great depth, O Lord. The hairs of his head are easier by far to count than his feeling, the movements of his heart.",
+      "quote_src": "Augustine of Hippo",
+      "img_src": "./assets/original/theory_of_rushes.png"
+    }
+  ]
+}

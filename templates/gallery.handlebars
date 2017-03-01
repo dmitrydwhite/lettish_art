@@ -1,0 +1,48 @@
+{{#each pieces}}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">{{title}}</h3>
+    </div>
+    <div class="panel-body">
+      <img src={{img_src}} 
+           class="img-responsive center-block" 
+           alt={{title}}
+           style="max-height: 400px; border: 2px solid black;"/>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <p class="text-center"><em>{{medium}}</em></p>
+        </div>
+        <div class="col-md-3"></div>      
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <blockquote>
+            <p>{{quote_inspire}}</p>
+            <footer>{{quote_src}}</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <button class="btn btn-default btn-lg btn-block" disabled="disabled">
+            <p><s>Buy Original</s> SOLD</p>
+            <p>{{original_price}}</p>
+          </button>
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-default btn-lg btn-block">
+            <p>Buy Prints</p>
+            <p>{{print_price}}</p>
+          </button>
+        </div>
+        <div class="col-md-2"></div>
+        
+      </div>
+      </div>
+    </div>
+  </div>
+{{/each}}
